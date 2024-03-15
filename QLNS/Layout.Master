@@ -38,7 +38,7 @@
              <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-        <footer class="text-center" style="background-color:aqua" >
+        <footer class="text-center" style="background-color:darkorange" >
             C22TH2 _ Nguyễn Quốc Đạt
         </footer>
     </form>
