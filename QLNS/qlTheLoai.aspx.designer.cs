@@ -11,25 +11,25 @@ namespace QLNS
 {
 
 
-    public partial class qlNhanVien
+    public partial class qlTheLoai
     {
 
         /// <summary>
-        /// dsNhanVien control.
+        /// dsTheLoai control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource dsNhanVien;
+        protected global::System.Web.UI.WebControls.SqlDataSource dsTheLoai;
 
         /// <summary>
-        /// gvNhanVien control.
+        /// lvTheLoai control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvNhanVien;
+        protected global::System.Web.UI.WebControls.ListView lvTheLoai;
     }
 }

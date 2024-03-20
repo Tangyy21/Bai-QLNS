@@ -14,7 +14,7 @@
         <div class="container" style="margin-bottom:30px">
             
             <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">Tangyy</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -26,12 +26,24 @@
       <li class="nav-item">
         <a class="nav-link" href="qlPhongBan.aspx">Phong Ban</a>
       </li>
+
+  <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Quản lí Tin tức</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="qlTheLoai.aspx">Thể Loại</a>
+                <a class="dropdown-item" href="qlTinTuc.aspx">Tin Tức</a>
+            </div>
+        </li>
+
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="ThemNhanVien.aspx">Thêm Nhân Viên</a>
+      </li>    
+        <li class="nav-item">
+        <a class="nav-link" href="ThemTinTuc.aspx">Thêm Tin Tức</a>
       </li>    
     </ul>
   </div>  
-</nav>     
+</nav>        
           
         </div>
         <div>
@@ -42,5 +54,7 @@
             C22TH2 _ Nguyễn Quốc Đạt
         </footer>
     </form>
+      <script src="Scripts/jquery-3.0.0.js"></script>
+    <script src="Scripts/bootstrap.bundle.min.js"></script>
 </body>
 </html>
